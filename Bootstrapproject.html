@@ -1,0 +1,464 @@
+ <html>
+    <head><title>
+        Bootstrap Project</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+       
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+        <script src="js/bootstrap.bundle.js" type="text/javascript"></script>
+       
+        <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+         <!-- Option 1: Include in HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <style>
+            #ab:hover{background-color: orange;}
+            #aa:hover{color:orange}
+            #h{height: 205px;width: 350px;}
+            #h:hover{transform: scale(1.3,1.3);transition: 1s;}
+            </style>
+        </head>
+        <body>
+           <nav class="navbar navbar-expand-lg navbar-light  fixed-top"style="background-color:white"> 
+            <div class="container-fluid">
+           <a href="#" class="navbar-brand"><h1 style="margin-left:200px;">Sectt<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"width=28px><path fill="#d71c0f" d="M480 288c0-80.3-49.3-148.9-119.2-177.6L320 192V80a16 16 0 0 0 -16-16h-96a16 16 0 0 0 -16 16v112l-40.8-81.6C81.3 139.1 32 207.8 32 288v64h448zm16 96H16a16 16 0 0 0 -16 16v32a16 16 0 0 0 16 16h480a16 16 0 0 0 16-16v-32a16 16 0 0 0 -16-16z"></svg>re</h1></a>
+           <button type="button"class="navbar-toggler"data-bs-toggle="collapse"data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#"class="nav-item nav-link active"><p style="margin-left: 100px;color:orangered;">Home</p></a>
+                    <a href="#"class="nav-item nav-link active">About</a>
+                    <div class="nav-item dropdown">
+                    <a href="#"class="nav-link active dropdown-toggle"data-bs-toggle="dropdown">Blog</a>
+                    <diV class="dropdown-menu">
+                        <a href="#"class="dropdown-item">Blog Post</a>
+                        <a href="#"class="dropdown-item">Blog Single Post</a>
+                    </div>
+                    </div>
+                    
+                    <div class="nav-item dropdown">
+                        <a href="#"class="nav-link active dropdown-toggle"data-bs-toggle="dropdown">Pages</a>
+                        <diV class="dropdown-menu">
+                            <a href="#"class="dropdown-item">Services</a>
+                            <a href="#"class="dropdown-item">404 Page</a>
+                            <a href="#"class="dropdown-item">Email Page</a>
+                            <a href="#"class="dropdown-item">Elements</a>
+                            <a href="#"class="dropdown-item">Landing Page</a>
+                        </div>
+                        </div>
+
+                        <a href="#"class="nav-item nav-link active">Contact</a>
+                        <form class="d-flex">
+                            <div class="input-group"style="margin-left:110px">
+                                <input type="text"class="form-control"placeholder="Search">
+                                <button type="button" class="btn btn-warning"style="background-color:orange"><i class="bi-search"></i></button>
+                                </div>
+                                </form>
+                                </div>
+
+                        <button type="button"class="btn btn-warning"style="background-color:orange;position: absolute;left:1200px;top:10px;height: 44;">Request a Quote</button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16"style="position:absolute;left: 1380px;top:23px">
+                            <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
+                          </svg>
+                    
+                    </div>
+                    </div>
+</nav>
+
+<div id="myCarousel"class="carousel slide"data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0"class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li></ol>
+
+<div class="carousel-inner"style="height: 600px;">
+    <div class="carousel-item active">
+        <img src="E:\BOOTSTRAP\banner1.jpeg"class="d-block w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1 style="position: absolute;top: 180px;left:160px;font-size: large;color: aliceblue;font-weight: bold;">INDUSTRIAL</h1>
+                    <h1 style="position: absolute;top: 200px;left:160px;font-size: 65px;color: aliceblue;font-weight: bold;">We Provided Best <br>Industrial Services</h1>
+
+<table style="border:2px solid red">
+    <tr><td>
+            <div style="background-color:white;height:65px;width: 65px;;position:absolute;left: 160px;top:380px;border-radius: 100px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"height="40"width="40"style="position:absolute;left: 10px;top:10px"><path fill="#f06f05" d="M50.7 58.5L0 160l208 0 0-128L93.7 32C75.5 32 58.9 42.3 50.7 58.5zM240 160l208 0L397.3 58.5C389.1 42.3 372.5 32 354.3 32L240 32l0 128zm208 32L0 192 0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-224z"/></svg>
+                    </div></td>
+                    <td><p style="position: absolute;top: 385px;left:260px;color: aliceblue;">Consectator</p>
+                        <h1 style="position: absolute;top: 410px;left:260px;font-size: large;color: aliceblue;font-weight: bold;">PRODUCTION</h1>
+                
+                </td>
+
+              <td> <div style="background-color:white;height:65px;width: 65px;;position:absolute;left: 440px;top:380px;border-radius: 100px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"height="40"width="40"style="position:absolute;left: 10px;top:10px"><path fill="#fb4509" d="M480 48c0-26.5-21.5-48-48-48L336 0c-26.5 0-48 21.5-48 48l0 48-64 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-64 0 0-72c0-13.3-10.7-24-24-24S64 10.7 64 24l0 72L48 96C21.5 96 0 117.5 0 144l0 96L0 464c0 26.5 21.5 48 48 48l256 0 32 0 96 0 160 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-112 0 0-144zm96 320l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM240 416l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16zM128 400c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32zM560 256c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zM256 176l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM112 160c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zM256 304c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32zM112 320l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16zm304-48l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM400 64c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zm16 112l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16z"/></svg>
+                        </div></td>
+                        <td><p style="position: absolute;top: 385px;left:530px;color: aliceblue;">Consectator</p>
+                            <h1 style="position: absolute;top: 410px;left:530px;font-size: large;color: aliceblue;font-weight: bold;">INDUSTRIAL</h1>
+                            </td>
+                
+                <td>   <div style="background-color:white;height:65px;width: 65px;;position:absolute;left: 710px;top:380px;border-radius: 100px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"height="40"width="40"style="position:absolute;left: 10px;top:10px"><path fill="#fc5a03" d="M208 80c0-26.5 21.5-48 48-48l64 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-8 0 0 40 152 0c30.9 0 56 25.1 56 56l0 32 8 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l8 0 0-32c0-4.4-3.6-8-8-8l-152 0 0 40 8 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l8 0 0-40-152 0c-4.4 0-8 3.6-8 8l0 32 8 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l8 0 0-32c0-30.9 25.1-56 56-56l152 0 0-40-8 0c-26.5 0-48-21.5-48-48l0-64z"/></svg>
+                        </div></td>
+                        <td><p style="position: absolute;top: 385px;left:810px;color: aliceblue;">Consectator</p>
+                            <h1 style="position: absolute;top: 410px;left:810px;font-size: large;color: aliceblue;font-weight: bold;">CONSTRUCTION</h1>
+                            </td>
+                        </tr></table>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+    
+        
+        <div class="carousel-item">
+
+        <img src="E:\BOOTSTRAP\banner2.jpeg"class="d-block w-100">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1 style="position: absolute;top: 180px;left:160px;font-size: large;color: aliceblue;font-weight: bold;">INDUSTRIAL</h1>
+                    <h1 style="position: absolute;top: 200px;left:160px;font-size: 65px;color: aliceblue;font-weight: bold;">Great Technology <br>Best Services</h1>
+                    <p style="position: absolute;top: 370px;left:160px;color: aliceblue;font-weight: bold;">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.<br> Semper at tempufddfel. Lorem ipsum dolor sit amet elit.</p>
+                    <table style="border:2px solid red">
+                       <tr><td> <button type="button"class="btn btn-warning"style="position: absolute;top:450px;left:160px">Read More</button></td>
+                        <td><button type="button"class="btn"style="border: 3px solid white;position: absolute;top:448px;left:290px;color:white"id="ab">Read More</button></td></tr>
+                       </table>
+                
+                </div>
+                    </div>
+                    </div>
+        </div>
+        <div class="carousel-item">
+
+        <img src="E:\BOOTSTRAP\banner3.jpeg"class="d-block w-100">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1 style="position: absolute;top: 180px;left:160px;font-size: large;color: aliceblue;font-weight: bold;">INDUSTRIAL</h1>
+                    <h1 style="position: absolute;top: 200px;left:160px;font-size: 65px;color: aliceblue;font-weight: bold;">We Provided Best <br>Industrial Services</h1>
+
+<table style="border:2px solid red">
+    <tr><td>
+            <div style="background-color:white;height:65px;width: 65px;;position:absolute;left: 160px;top:380px;border-radius: 100px;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"height="40"width="40"style="position:absolute;left: 10px;top:10px"><path fill="#f06f05" d="M50.7 58.5L0 160l208 0 0-128L93.7 32C75.5 32 58.9 42.3 50.7 58.5zM240 160l208 0L397.3 58.5C389.1 42.3 372.5 32 354.3 32L240 32l0 128zm208 32L0 192 0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-224z"/></svg>
+                    </div></td>
+                    <td><p style="position: absolute;top: 385px;left:260px;color: aliceblue;">Consectator</p>
+                        <h1 style="position: absolute;top: 410px;left:260px;font-size: large;color: aliceblue;font-weight: bold;">PRODUCTION</h1>
+                
+                </td>
+
+              <td> <div style="background-color:white;height:65px;width: 65px;;position:absolute;left: 440px;top:380px;border-radius: 100px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"height="40"width="40"style="position:absolute;left: 10px;top:10px"><path fill="#fb4509" d="M480 48c0-26.5-21.5-48-48-48L336 0c-26.5 0-48 21.5-48 48l0 48-64 0 0-72c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 72-64 0 0-72c0-13.3-10.7-24-24-24S64 10.7 64 24l0 72L48 96C21.5 96 0 117.5 0 144l0 96L0 464c0 26.5 21.5 48 48 48l256 0 32 0 96 0 160 0c26.5 0 48-21.5 48-48l0-224c0-26.5-21.5-48-48-48l-112 0 0-144zm96 320l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM240 416l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16zM128 400c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32zM560 256c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zM256 176l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM112 160c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zM256 304c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32zM112 320l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16zm304-48l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16zM400 64c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0zm16 112l0 32c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16z"/></svg>
+                        </div></td>
+                        <td><p style="position: absolute;top: 385px;left:530px;color: aliceblue;">Consectator</p>
+                            <h1 style="position: absolute;top: 410px;left:530px;font-size: large;color: aliceblue;font-weight: bold;">INDUSTRIAL</h1>
+                            </td>
+                
+                <td>   <div style="background-color:white;height:65px;width: 65px;;position:absolute;left: 710px;top:380px;border-radius: 100px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"height="40"width="40"style="position:absolute;left: 10px;top:10px"><path fill="#fc5a03" d="M208 80c0-26.5 21.5-48 48-48l64 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-8 0 0 40 152 0c30.9 0 56 25.1 56 56l0 32 8 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l8 0 0-32c0-4.4-3.6-8-8-8l-152 0 0 40 8 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l8 0 0-40-152 0c-4.4 0-8 3.6-8 8l0 32 8 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-64 0c-26.5 0-48-21.5-48-48l0-64c0-26.5 21.5-48 48-48l8 0 0-32c0-30.9 25.1-56 56-56l152 0 0-40-8 0c-26.5 0-48-21.5-48-48l0-64z"/></svg>
+                        </div></td>
+                        <td><p style="position: absolute;top: 385px;left:810px;color: aliceblue;">Consectator</p>
+                            <h1 style="position: absolute;top: 410px;left:810px;font-size: large;color: aliceblue;font-weight: bold;">CONSTRUCTION</h1>
+                            </td>
+                        </tr></table>
+                
+                    
+                </div>
+                    </div>
+                    </div>
+        </div>
+        </div>
+
+        <a class="carousel-control-prev"href="#myCarousel"data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span></a>
+            <a class="carousel-control-next"href="#myCarousel"data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span></a>
+                </div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <h5 style="margin-left: 60px;margin-top: 95px;color:  orange;">About Us</h5><br>
+            <h1 style="font-weight: bold;margin-left: 60px;margin-top: -15px;">The Clever Industrial Business <br>You Can Feel.</h1>
+            <br>
+            <br>
+            <br>
+            </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            <p style="margin-top: 115px;margin-left:110;font-size: large;">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,<br> ultrices in ligula. Semper at tempufddfel. Lorem ipsum <br>dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum <br>dolor sit amet</p>
+            </div>
+            </div>
+            </div>
+
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <table align="center">
+                <tr><td>
+                    <div style="background-size: cover;overflow: hidden;">
+            <img src="C:\Users\LOGIN\Downloads\1.jpeg"style="height: 205px;width: 100%;"id="h"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        
+                        <h4 style="margin-top: -110px;color: white;">The arrival of the Fitting</h4>  
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+        </td>
+            
+             <td>  <div style="background-size: cover;overflow: hidden;">
+                
+                <img src="C:\Users\LOGIN\Downloads\2.jpeg"style="height: 205px;width: 100%;"id="h"></div>
+                <div class="container">
+                    <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h4 style="color:black;margin-top: -110px;color: white;">Factory Business Wonders</h4>
+                    </div>
+                    </div>
+                    </div>
+            </td> 
+
+            <td>   <div style="background-size: cover;overflow: hidden;">
+
+
+                    <img src="C:\Users\LOGIN\Downloads\3.jpeg"style="height: 205px;width: 100%;"id="h"></div>
+                    <div class="container">
+                        <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h4 style="color:black;margin-top: -110px;color: white;">We Stand slow in Quality</h4>
+                        </div>
+                        </div>
+                        </div>
+          </td>
+        </div>
+</div>                
+                    </tr></table>
+                    </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6"style="overflow: hidden;">
+                        <img src="C:\Users\LOGIN\Downloads\5.jpeg"style="height: 360px;width: 100%;"id="h"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-6"> 
+                        <h6 style="margin-left: 60px;color:  orange;"><b>Why Choose Us</b></h6><br>
+                        <h2 style="font-weight: bold;margin-top: -20px;margin-left: 60px;">The Clever Industrial Business <br>You Can Feel.</h2>
+                        <br>
+                        <br>
+                        <p style="margin-top: 0px;margin-left:60;font-size: large;color: grey;">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,<br> ultrices in ligula. Semper at tempufddfel. Lorem ipsum <br>dolor sit amet elit. Non quae, fugiat nihil ad.</p>
+                      <br>
+                      <br>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width=18px style="margin-left:60px"><path fill="#f13709" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                        <p style="margin-top: -25px;margin-left:80;font-size: large;color: grey;">Power & Energy</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width=18px style="margin-left :250px;margin-top:-40px"><path fill="#f13709" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                        <p style="margin-top: -43px;margin-left:270;font-size: large;color: grey;">Mechanical Works</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width=18px style="margin-top:10px;margin-left:60px"><path fill="#f13709" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                        <p style="margin-top: -25px;margin-left:80;font-size: large;color: grey;">Petroleum Refinary</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width=18px style="margin-top:-40px;margin-left:250px"><path fill="#f13709" d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                        <p style="margin-top: -42px;margin-left:270;font-size: large;color: grey;">Oil & Gas</p><br>
+                         <button type="button"class="btn btn-warning"style="margin-left:60px">More Sevices</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div><br>
+                        <br><br>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <img src="E:\BOOTSTRAP\banner5.jpeg"style="height:400px;width:100%;">
+                                    </div>
+                                    </div>
+                                    </div>
+
+                       <div class="container-fluid">
+                                <div class="row">
+                                 <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <h6 style="position: absolute;left:215px;top:1950px;color:  orange;"><b>Our Stats</b></h6><br>
+                                    <h2 style="position: relative;left:200px;bottom: 300px;color: white;"><b>Most Modern & Powerful<br> Industry in the world</b></h2>
+                                    <br>
+                                    <button type="button"class="btn btn-warning"style="margin-left:200px;margin-top:-280px">Read More</button>
+                                    </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-6">  
+                                    <table class="table table-borderless"style="position:relative;top:-300px;left: 120px;width: 80%;"><tr>
+                                   <td> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"style="width:50px;"><path fill="#fcfcfc" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm80 168c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm-160 0c17.7 0 32 14.3 32 32s-14.3 32-32 32-32-14.3-32-32 14.3-32 32-32zm194.8 170.2C334.3 380.4 292.5 400 248 400s-86.3-19.6-114.8-53.8c-13.6-16.3 11-36.7 24.6-20.5 22.4 26.9 55.2 42.2 90.2 42.2s67.8-15.4 90.2-42.2c13.4-16.2 38.1 4.2 24.6 20.5z"/></svg><br><h1 style="color: orange;"><b>1200</b></h1><p style="color: white;">Happy Clients</p></td>
+                                    <td> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"style="width:55px;"><path fill="#f1f2f4" d="M400 0L176 0c-26.5 0-48.1 21.8-47.1 48.2c.2 5.3 .4 10.6 .7 15.8L24 64C10.7 64 0 74.7 0 88c0 92.6 33.5 157 78.5 200.7c44.3 43.1 98.3 64.8 138.1 75.8c23.4 6.5 39.4 26 39.4 45.6c0 20.9-17 37.9-37.9 37.9L192 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-26.1 0C337 448 320 431 320 410.1c0-19.6 15.9-39.2 39.4-45.6c39.9-11 93.9-32.7 138.2-75.8C542.5 245 576 180.6 576 88c0-13.3-10.7-24-24-24L446.4 64c.3-5.2 .5-10.4 .7-15.8C448.1 21.8 426.5 0 400 0zM48.9 112l84.4 0c9.1 90.1 29.2 150.3 51.9 190.6c-24.9-11-50.8-26.5-73.2-48.3c-32-31.1-58-76-63-142.3zM464.1 254.3c-22.4 21.8-48.3 37.3-73.2 48.3c22.7-40.3 42.8-100.5 51.9-190.6l84.4 0c-5.1 66.3-31.1 111.2-63 142.3z"/></svg><br><h1 style="color: orange;"><b>1200</b></h1><p style="color: white;">Projects Done</p></td>
+                                   <td><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"style="width:55px;"><path fill="#fcfcfd" d="M0 80C0 53.5 21.5 32 48 32l96 0c26.5 0 48 21.5 48 48l0 16 192 0 0-16c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-16-192 0 0 16c0 1.7-.1 3.4-.3 5L272 288l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-1.7 .1-3.4 .3-5L144 224l-96 0c-26.5 0-48-21.5-48-48L0 80z"/></svg><br><h1 style="color: orange;"><b>1200</b></h1><p style="color: white;">Awards Won</p></td></td>
+                                </tr></table>
+                                </div>
+                                    </div>
+                                    </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <img src="E:\BOOTSTRAP\ab1.jpeg"style="height: 500px;width: 100%;"></div>
+                                    
+
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                     
+                                        <h6 style="color:  orange;"><b>Ask by Client</b></h6><br>
+                                        <h1 style="font-weight: bold;">Frequently Asked Questions</h1>
+                                        <br>
+                                        <button type="button"class="btn btn-warning w-75">Question number one?</button>
+                                        <br><br>
+                                        <p style="font-size: large;color: grey;">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,<br> ultrices in ligula. Semper at tempufddfel. Lorem ipsum <br>dolor sit amet elit. Non quae, fugiat nihil ad.</p><br>
+  <ul class="list-group list-group-flush w-75">
+    <li class="list-group-item"id="aa"><b>Question number Two?</b></li>
+    <li class="list-group-item"id="aa" ><b>Question number Three?</b></li>
+    <li class="list-group-item"id="aa"><b>Question number Four?</b></li>  
+    </ul>                                 
+</div></div></div>
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12"style="text-align:center">
+            <p style="color: orange;"><b>Insights and Trends</b></p>
+            <h2><b>Recent Articles</b></h2>
+            </div>
+            </div>
+<br>
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <img src="C:\Users\LOGIN\Downloads\1.jpeg"class="rounded"style="height:200px;width:100%;">
+            <br><p style="color: rgb(105, 105, 105);font-size: small;"> May 15 2021</p>
+            <p style="color: orange;font-size: medium;margin-top: -40px;margin-left: 100px;"> Industrial ,Factory</p>
+            <p style="font-size: large;color:black;">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit.</p>
+            </div>
+           
+         <div class="col-lg-4 col-md-4 col-sm-4">
+            <img src="C:\Users\LOGIN\Downloads\2.jpeg"class="rounded"style="height:200px;width:100%">
+            <br><p style="color: rgb(105, 105, 105);font-size: small;"> May 15 2021</p>
+            <p style="color: orange;font-size: medium;margin-top: -40px;margin-left: 100px;"> Production,Construction</p>
+            <p style="font-size: large;color:black;">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit.</p>
+<br><button type="button"class="btn btn-warning "style="margin-left: 130px;">More Article</button>
+</div>
+
+         <div class="col-lg-4 col-md-4 col-sm-4">
+            <img src="C:\Users\LOGIN\Downloads\1.jpeg"class="rounded"style="height:200px;width:100%">
+            <br><p style="color: rgb(105, 105, 105);font-size: small;"> May 15 2021</p>
+            <p style="color: orange;font-size: medium;margin-top: -40px;margin-left: 100px;"> Factory,Fitting</p>
+            <p style="font-size: large;color:black;">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit.</p>
+        </div>
+            </div>
+        </div>
+   
+        
+        <br><br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12"style="text-align:center">
+            <p style="color: orange;"><b>Testimonials</b></p>
+            <h1><b>Client's Testimonials</b></h1>
+            </div>
+            </div></div>
+<br>
+
+
+<div id="myCarousel"class="carousel slide"data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0"class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li></ol>
+
+<div class="carousel-inner"style="height: 300px;">
+    <div class="carousel-item active">
+        <center><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width="50px"><path fill="#fb4204" d="M0 216C0 149.7 53.7 96 120 96l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72zm256 0c0-66.3 53.7-120 120-120l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72z"/></svg></center>
+        <br>            <p style="font-size: large;color:gray;text-align: center;"><b>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo<br> ultrices in ligula. Semper at tempufddfel. Lorem ipsum <br>dolor sit amet elit.</b></p>
+        <br><center><img src="E:\BOOTSTRAP\team1.jpeg"class="rounded-circle"style="width:60px;"><p><b>John Wilson</b></p></center>
+    </div>
+
+    <div class="carousel-item">
+        <center><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width="50px"><path fill="#fb4204" d="M0 216C0 149.7 53.7 96 120 96l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72zm256 0c0-66.3 53.7-120 120-120l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72z"/></svg></center>
+        <br>            <p style="font-size: large;color:gray;text-align: center;"><b>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo<br> ultrices in ligula. Semper at tempufddfel. Lorem ipsum <br>dolor sit amet elit.</b></p>
+        <br><center><img src="E:\BOOTSTRAP\team2.jpeg"class="rounded-circle"style="width:60px;"><p><b>Julia Sakura</b></p></center>
+    </div>
+
+    <div class="carousel-item">
+        <center><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width="50px"><path fill="#fb4204" d="M0 216C0 149.7 53.7 96 120 96l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72zm256 0c0-66.3 53.7-120 120-120l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72z"/></svg></center>
+        <br>            <p style="font-size: large;color:gray;text-align: center;"><b>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo<br> ultrices in ligula. Semper at tempufddfel. Lorem ipsum <br>dolor sit amet elit.</b></p>
+        <br><center><img src="E:\BOOTSTRAP\team3.jpeg"class="rounded-circle"style="width:60px;"><p><b>Roy Linderson</b></p></center>
+    </div></div></div>
+
+
+<a class="carousel-control-prev"href="#myCarousel"data-bs-slide="prev">
+    <!--span class="carousel-control-prev-icon"></span--></a>
+    <a class="carousel-control-next"href="#myCarousel"data-bs-slide="next">
+        <!--span class="carousel-control-next-icon"></span--></a>
+        </div></div>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4">
+        <p style="color: orange;margin-left: 100px;"><b>Join Us</b></p>
+        <h2 style="margin-left: 100px;"><b>Stay Updated!</b></h2>
+        <p style="color:gray;margin-left: 100px;">Get Updates by Subscribe our Weekly<br>Newsletter</p>
+        </div>
+
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+        <div class="col-auto"><br><br>
+            <input type="text"id="a"class="form-control w-90"placeholder="Enter Your Email..">
+            </div></div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4"><br><br>
+        <button type="button"class="btn btn-warning w-50">Subscribe</button>
+        </div>
+    </div></div>
+    <br><br><br><br>
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <h5 style="margin-left: 100px;font-size: larger;"><b>ABOUT US</b></h5><br>
+                
+                <p style="color:gray;margin-left: 100px;">Vestibulum ante ipsum primis in faucibus <br>orci luctus turpis sodales quis. Integer sit<br> amet mattis quam.Vivamus a ligula quam<br>tesque et libero ut justo ultrices in.</p>
+               <br> <button type="button"class="btn btn-warning w-50"style="margin-left:100px">Contact Us</button>
+            </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-4">
+            <h5 style="margin-left: 50px;font-size: larger;"><b>Quick Links</b></h5>
+            <table class="table table-borderless"style="margin-left:50px;cellpadding:0 px">
+                <tr><td><p style="color: gray;">Home</p></td><td><p style="color: gray;">Privacy Policy</p></td></tr>
+                <tr><td><p style="color: gray;">About</p></td><td><p style="color: gray;">Term of Use</p></td></tr>
+                <tr><td><p style="color: gray;">Blogs</p></td><td><p style="color: gray;">Sales and Refunds</p></td></tr>
+                <tr><td><p style="color: gray;">Contact</p></td><td><p style="color: gray;">FAQ</p></td></tr>
+                </table>
+        
+        </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-4">
+        <h5 style="margin-left: 50px;font-size: larger;"><b>Social Media</b></h5><br>
+        <table class="table table-borderless"style="margin-left:50px;width: 100%;">
+            <tr><td><img src="C:\Users\LOGIN\Downloads\1.jpeg"class="rounded"style="width: 100px;"></td><td><img src="C:\Users\LOGIN\Downloads\2.jpeg"class="rounded"style="width: 100px;"></td><td><img src="C:\Users\LOGIN\Downloads\3.jpeg"class="rounded"style="width: 100px;"></td></tr>
+            <tr><td><img src="C:\Users\LOGIN\Downloads\3.jpeg"class="rounded"style="width: 100px;"></td><td><img src="C:\Users\LOGIN\Downloads\1.jpeg"class="rounded"style="width: 100px;"></td><td><img src="C:\Users\LOGIN\Downloads\2.jpeg"class="rounded"style="width: 100px;"></td></tr>
+</table>
+
+<table class="table table-borderless w-25"style="margin-left:50px;">
+    <tr><td style="width: 10px;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"width="15px"><path fill="#fb5a04" d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/></svg></td>
+        <td style="width: 10px;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"width="12px"><path fill="#ff6905" d="M279.1 288l14.2-92.7h-88.9v-60.1c0-25.4 12.4-50.1 52.2-50.1h40.4V6.3S260.4 0 225.4 0c-73.2 0-121.1 44.4-121.1 124.7v70.6H22.9V288h81.4v224h100.2V288z"/></svg></td>     
+        <td style="width: 10px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width="15px"><path fill="#fb7e09" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></td>
+        <td style="width: 10px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"width="15px"><path fill="#ff9500" d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/></svg></td>
+    </tr></table> </div></div></div>
+<br>
+<hr>
+<center><p style="color:grey">2021 Secttore. All rights reserved | Designed by W3layouts</p></center>
+   
+    </body>
+                    </html>
